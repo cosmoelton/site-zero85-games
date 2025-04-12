@@ -41,7 +41,6 @@ header {
 }
 
 nav {
-    /* background-color: #10101da1; */
     background-color: #10101db6;
     /* opacity: 0.5; */
     display: flex;
@@ -96,8 +95,10 @@ main p {
 
 section {
     min-height: 100vh;
-    margin-bottom: 5rem;
-    border: solid 2px yellow;
+    margin-bottom: 10rem;
+    padding-top: 5rem;
+
+    /* border: solid 2px yellow; */
 }
 
 article {
@@ -122,30 +123,83 @@ article div * {
     border: solid red;
 }
 
-/* 
-article button {
-    float: right;
-} */
-
-.mapa inframe{
-    width: 100%;
+.mapa iframe {
+    width: 80%;
+    height: 80vh;
     border: 0;
-    height: 100vh;
-
 }
 
 footer {
     height: 20rem;
-    background-color: #080808;
-    display: flex;
-    flex-direction: row;
+    background-color: #000000;
     color: #999999;
     padding: 2rem 4rem;
-    gap: 2rem;  
+
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
 
-footer div{
+footer div {
+    height: auto;
+    width: 100%;
 
+    border: solid yellow;
+}
 
+form {
+    max-width: 500px;
+    margin: left;
+    align-items: flex-start;
+    flex: 1rem;
+  }
+
+  label {
+    display: flex;    
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin: 1rem 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .texto-contato p {
+    text-align: justify;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;    
+  }
+
+  input {
+    width: 100%;
+    padding: 16px; 
+    font-size: 16px;
+    color:rgb(100, 100, 100)
+  }
+
+  button {
+    width: 100%; 
+    padding: 12px;
+    background-color: #c8d41bc2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000000;
+  }
+
+  textarea {
+    width: 100%; 
+    font-size: 16px;
+    box-sizing: border-box; 
+    resize: vertical;
+    color:rgb(100, 100, 100)
+    text align:;
 
 }

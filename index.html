@@ -6,6 +6,7 @@
     <title>Desafio #1</title>
     <!-- CSS Externo -->
     <link rel="stylesheet" href="./css/style.css">
+   
 </head>
 <body>
     <!-- Menu de opções -->
@@ -31,27 +32,77 @@
      <!-- Bem-vindo(a) -->
         <h1>Bem vindo(a) à Zero85 Games!</h1>
         <p>Soluta, alias architecto quia quos odio quam, impedit eveniet laboriosam earum pariatur autem nostrum incidunt consequuntur, ipsam cum asperiores. Nihil error quisquam consequuntur nisi, officiis aliquam cumque reprehenderit, consequatur adipisci provident accusamus quae fugit alias iure deleniti repellat! Animi voluptas, tempora eius veritatis labore eveniet excepturi, adipisci placeat reprehenderit facere, illo enim doloremque unde reiciendis quisquam quod. Veritatis labore perferendis ipsam perspiciatis error deserunt molestias ex nobis nihil necessitatibus, accusantium neque ut repellendus nostrum dignissimos. At modi rem illo quam nam beatae qui nesciunt architecto dolorem! Quidem id, dolor magnam saepe tenetur illo error cupiditate dolorum quod assumenda temporibus quisquam aliquam dicta ipsa. Nesciunt at porro aliquam quibusdam beatae fugit corporis ex inventore unde, libero facere et id dolor. Porro fugit voluptas delectus deserunt, fuga nihil. Culpa excepturi iste ex aliquid nam quod, quo pariatur debitis maxime sapiente at dignissimos sed corrupti cupiditate explicabo eaque molestias officia itaque molestiae atque magnam! Voluptatum doloribus aut eligendi quasi vero vitae quos, excepturi nihil quaerat corporis ducimus debitis nesciunt dolorem quis. Doloribus doloremque ex exercitationem harum quisquam maxime praesentium optio sequi rem dolor, modi delectus in eius, placeat, velit pariatur dolorum voluptatum sapiente omnis nam.</p>
-    <!-- CONTATO -->
+    
+        <!-- CONTATO -->
 
-    <section id="contato"><h1>Entre em contato </h1></section>
-    <!-- SOBRE -->
-    <section id="sobre">
-        
-        <h1>Sobre a Empresa</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sapiente mollitia error distinctio saepe provident reiciendis maxime omnis repellendus blanditiis. Velit veniam itaque saepe fugit tempore amet ullam possimus quo eos qui cumque in et sint unde corrupti ea tempora, vitae labore laboriosam totam obcaecati aperiam. Harum id hic dolore? Modi numquam distinctio doloremque laudantium culpa doloribus tempora. Doloribus facere, explicabo beatae saepe tenetur dolorem ut commodi, neque illum, aperiam aut odit. Velit, fugiat enim. Dicta veniam quidem rem, necessitatibus optio nulla laborum esse? Iste, obcaecati pariatur? Veritatis sequi nostrum aliquam, non autem at, dignissimos est voluptatem esse perspiciatis placeat?
-        </p>
+    <section id="contato">
+        <h1>Entre em Contato Conosco</h1>
+
+        <div>
+            <form>
+                <hr>
+                <label
+                    for="nome">Nome:
+                </label>
+
+                <input type="text" id="nome" name="nome" placeholder="Informe seu Nome" required>
+                <hr>
+                <label
+                    for="email">E-mail:
+                </label>
+
+                <input type="text" id="email" name="email" placeholder="Informe e-mail Válido" required>
+                <hr>
+                <label
+                    for="mensagem">Mensagem:
+                </label>
+
+                <textarea id="mensagem" name="mensagem" rows="5" required minlength="10" placeholder="Informe sua sugestão aqui"required></textarea>
+
+            <div class="botao">
+
+                <button type="submit">Enviar</button>
+            </div>    
+            </form>
+            <div class="texto-contato">
+                <p>Seja bem-vindo à nossa página de contato! Estamos felizes por você querer se comunicar conosco.
+                <p>Acreditamos que um bom relacionamento começa com uma boa conversa, e por isso estamos sempre prontos para ouvir você.</p>
+                <p>Caso prefira, também pode nos enviar um e-mail diretamente para contato@85zero.com.br, ou, se desejar um atendimento mais rápido, entre em contato pelo telefone ou WhatsApp em (00) 1234-5678.</p>
+
+            </div>        
+        </div>
     
     </section>
     
+    <!-- SOBRE -->
+    
+    <section id="sobre"> </section>
+     
+        <h1>Sobre a Empresa</h1>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sapiente mollitia error distinctio saepe provident reiciendis maxime omnis repellendus blanditiis. Velit veniam itaque saepe fugit tempore amet ullam possimus quo eos qui cumque in et sint unde corrupti ea tempora, vitae labore laboriosam totam obcaecati aperiam. Harum id hic dolore? Modi numquam distinctio doloremque laudantium culpa doloribus tempora. Doloribus facere, explicabo beatae saepe tenetur dolorem ut commodi, neque illum, aperiam aut odit. Velit, fugiat enim. Dicta veniam quidem rem, necessitatibus optio nulla laborum esse? Iste, obcaecati pariatur? Veritatis sequi nostrum aliquam, non autem at, dignissimos est voluptatem esse perspiciatis placeat?
+        </p>
+    
+    
     <!-- MAPA -->
     
-    <section id="mapa"><h1>Minha Localização</h1> </section>
+    <section id="mapa">
+        
+        <h1>Minha Localização</h1> 
+    
     <!-- localização do Google mapa -->
-    <div class="mapa"></div>
-    <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15924.363403795203!2d-38.47868348995718!3d-3.790394691025044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7458b85fffbc1%3A0x6235bbed04f25cdf!2sCONDOM%C3%8DNIO%20WSTC!5e0!3m2!1spt-BR!2sbr!4v1744399892894!5m2!1spt-BR!2sbr"
-    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> frameborder="0"</iframe>
-
+    
+        <div class="mapa">
+            <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.844111616371!2d-38.528897426198085!3d-3.8436212961301623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74f6dcb4af135%3A0x7a7584d40133b48c!2sE7AllCelular!5e0!3m2!1spt-BR!2sbr!4v1744477972726!5m2!1spt-BR!2sbr"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    
+    </section>
+       
     </main>
 
     <footer>FOOTER
