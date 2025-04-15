@@ -35,43 +35,54 @@
     
         <!-- CONTATO -->
 
-    <section id="contato">
-        <h1>Entre em Contato Conosco</h1>
+    <section id="contato" class="box-contato">
+        <!-- <h1>Entre em Contato Conosco</h1> -->
 
-        <div>
-            <form>
-                <hr>
-                <label
-                    for="nome">Nome:
-                </label>
+        <!-- <div> -->
+            <form action="#" method="post">
+                
+                <legend> 
+                    <h2 class="texto-contato">
+                        
+                        <span>Entre em Contato</span> 
+                        <span class="texto-conosco">Conosco:</span>
+                        <hr>
+                    </h2>
+                </legend> 
+                <fieldset>
+                    <div class="group"> 
+                         <div class="block">
+                
+                        <input type="text" id="nome" name="nome" placeholder="Informe seu Nome">
+                        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+                            </div>
 
-                <input type="text" id="nome" name="nome" placeholder="Informe seu Nome" required>
-                <hr>
-                <label
-                    for="email">E-mail:
-                </label>
+                        <div class="block">
+                      
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                        <input type="text" id="assunto" name="assunto" placeholder="Assunto" required>
 
-                <input type="text" id="email" name="email" placeholder="Informe e-mail Válido" required>
-                <hr>
-                <label
-                    for="mensagem">Mensagem:
-                </label>
+                            </div>
+                        
+                    </div>
+                        
+                  <textarea id="mensagem" name="mensagem" rows="5" required minlength="10" placeholder="Informe sua mensagem aqui"></textarea>
+                   
+                  <button type="submit">Enviar Mensagem</button>
+                  <!-- <button type="reset">Limpar tudo</button> -->
 
-                <textarea id="mensagem" name="mensagem" rows="5" required minlength="10" placeholder="Informe sua sugestão aqui"required></textarea>
+            
+                <!-- <input type="text" id="nome" name="nome" placeholder="Informe seu Nome" required> -->
 
-            <div class="botao">
-
-                <button type="submit">Enviar</button>
-            </div>    
+                </fieldset>
+                
+            <!-- </div>     -->
             </form>
-            <div class="texto-contato">
+            <div class="texto-pag-contato">
                 <p>Seja bem-vindo à nossa página de contato! Estamos felizes por você querer se comunicar conosco.
                 <p>Acreditamos que um bom relacionamento começa com uma boa conversa, e por isso estamos sempre prontos para ouvir você.</p>
                 <p>Caso prefira, também pode nos enviar um e-mail diretamente para contato@85zero.com.br, ou, se desejar um atendimento mais rápido, entre em contato pelo telefone ou WhatsApp em (00) 1234-5678.</p>
-
-            </div>        
-        </div>
-    
+      
     </section>
     
     <!-- SOBRE -->
