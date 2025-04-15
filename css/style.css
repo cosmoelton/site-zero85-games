@@ -154,8 +154,9 @@ form {
 
                 input{
                     height: 2.5rem;
-                    border-radius: 1rem;
+                    border-radius: 0.7rem;
                     background-color: #534f4f;
+                    border: none;
 
                     &::placeholder{
                         font-size: 1rem;
@@ -174,7 +175,7 @@ form {
 
         textarea{
             width: 100%;
-            border-radius: 1rem;
+            border-radius: 0.5rem;
             height: 10rem;
             padding: 0.5rem;
             background-color: #534f4f;
@@ -191,7 +192,7 @@ form {
             width: 25%;
             margin: 1rem 0;
             height: 3rem;
-            border-radius: 2rem;
+            border-radius: 1rem;
             font-size: 1rem;
             font-weight: 100;
             padding: 0.5rem;
