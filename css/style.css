@@ -155,7 +155,7 @@ form {
                 input{
                     height: 2.5rem;
                     border-radius: 1rem;
-                    background-color: #9c9c9c;
+                    background-color: #534f4f;
 
                     &::placeholder{
                         font-size: 1rem;
@@ -177,17 +177,23 @@ form {
             border-radius: 1rem;
             height: 10rem;
             padding: 0.5rem;
-            color: rgb(255, 255, 255);
-            background-color: #9c9c9c;
+            background-color: #534f4f;
+
+            &::placeholder{
+                font-size: 1rem;
+                color: rgb(255, 255, 255);
+                padding-left: 0.5rem;
+
+            }
         }
 
         button{
-            width: 30%;
+            width: 25%;
             margin: 1rem 0;
             height: 3rem;
             border-radius: 2rem;
             font-size: 1rem;
-            font-weight: 600;
+            font-weight: 100;
             padding: 0.5rem;
             border: none;
             background-color: #fa7827;
@@ -200,9 +206,7 @@ form {
             background-color: rgb(252, 217, 43);
 
             }
-
-        
-
+   
         }
 
     }
@@ -246,39 +250,21 @@ footer div {
     padding: 20px; 
   }*/
 
-  .texto-contato p {
+  .texto-contato {
     text-align: justify;
-    align-items: flex-start;
-    font-size: 16px;
-    line-height: 1.6;
-    color: white;    
+    /*align-items: flex-start;*/
+    font-size: 1.7rem;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+
+    .texto-conosco{
+        color: rgb(252, 217, 43);
+   
+        texto-pag-contato{
+            text-align: justify;
+            width: 100%;
+
+        
+        }
   }
-
-  /* input {
-    width: 100%;
-    padding: 16px; 
-    font-size: 16px;
-    color:rgb(100, 100, 100)
-  } */
-
- /* button {
-    width: 70%; 
-    padding: 12px;
-    background-color: #c8d41bc2;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    margin-top: 10px;
-    color: #000000;
-  }  */
-
-  /* textarea {
-    width: 100%; 
-    font-size: 16px;
-    box-sizing: border-box; 
-    resize: vertical;
-    color:rgb(100, 100, 100)
-    text align:;
-
-} */
+} 
